@@ -31,7 +31,7 @@ $app = AppFactory::create();
 $app->setBasePath("/public");
  
 $app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Hello Panji!");
+    $response->getBody()->write("Hello World!");
     return $response;
 });
  
