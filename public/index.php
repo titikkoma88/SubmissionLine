@@ -61,6 +61,28 @@ $data = json_decode($body, true);
     if(is_array($data['events'])){
         foreach ($data['events'] as $event)
         {
+            $res = $bot->getProfile($event['source']['userId']);
+            if ($res->isSucceeded())
+            {
+                $profile = $res->getJSONDecodedBody();
+
+                // create welcome message
+                $message  = "Salam kenal, " . $profile['displayName'] . "!\n";
+                $message .= "silahkan kirim pesan dengan mengetik nama pulau. Contoh : \"Jawa\"";
+                $textMessageBuilder = new TextMessageBuilder($message);
+
+                // create sticker message
+                $stickerMessageBuilder = new StickerMessageBuilder(1, 3);
+
+                // merge all message
+                $multiMessageBuilder = new MultiMessageBuilder();
+                $multiMessageBuilder->add($textMessageBuilder);
+                $multiMessageBuilder->add($stickerMessageBuilder);
+
+                // send reply message
+                $result = $bot->replyMessage($event['replyToken'], $multiMessageBuilder);
+            }
+
             //reply message
             if ($event['type'] == 'message')
             {
