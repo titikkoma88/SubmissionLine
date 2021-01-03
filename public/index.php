@@ -156,7 +156,7 @@ $data = json_decode($body, true);
 
                     } else {
                         // 
-                        $result = $bot->replyText($event['replyToken'], "Keyword tidak tersedia");
+                        $result = $bot->replyText($event['replyToken'], "Keyword tidak tersedia, silahkan kirim pesan dengan mengetik nama pulau. Contoh : "Jawa"");
                     }
     
     
