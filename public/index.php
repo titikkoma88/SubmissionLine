@@ -155,8 +155,20 @@ $data = json_decode($body, true);
                         ]);
 
                     } else {
-                        // 
-                        $result = $bot->replyText($event['replyToken'], "Keyword tidak tersedia, silahkan kirim pesan dengan mengetik nama pulau. Contoh : 'Jawa'");
+                        
+                        // create sticker message
+                        $stickerMessageBuilder = new StickerMessageBuilder(1, 111);
+
+                        // create text message
+                        $message = 'Keyword tidak tersedia, silahkan kirim pesan dengan mengetik nama pulau. Contoh : "Jawa"';
+                        $textMessageBuilder = new TextMessageBuilder($message);
+
+                        // merge all message
+                        $multiMessageBuilder = new MultiMessageBuilder();
+                        $multiMessageBuilder->add($stickerMessageBuilder);
+                        $multiMessageBuilder->add($textMessageBuilder);
+
+                        $result = $bot->replyText($event['replyToken'], $multiMessageBuilder);
                     }
     
     
@@ -178,7 +190,7 @@ $data = json_decode($body, true);
                     $event['message']['type'] == 'audio' or
                     $event['message']['type'] == 'file'
                 ) {
-                    $contentURL = " https://example.herokuapp.com/public/content/" . $event['message']['id'];
+                    $contentURL = " https://jiesubmissionline.herokuapp.com/public/content/" . $event['message']['id'];
                     $contentType = ucfirst($event['message']['type']);
                     $result = $bot->replyText($event['replyToken'],
                         $contentType . " yang Anda kirim bisa diakses dari link:\n " . $contentURL);
