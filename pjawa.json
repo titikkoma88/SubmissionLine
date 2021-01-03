@@ -162,6 +162,816 @@
           ],
           "paddingAll": "0px"
         }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Persib_logo.svg/1200px-Persib_logo.svg.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PERSIB Bandung",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Si Jalak Harupat",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://www.persib.co.id/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/id/f/f8/Logo_Persebaya_Surabaya.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PERSEBAYA Surabaya",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Gelora Bung Tomo",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://www.persebaya.id/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/id/thumb/9/95/Persita_logo_%282020%29.svg/1200px-Persita_logo_%282020%29.svg.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PERSITA Tangerang",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Kelapa Dua Sport Center Tangerang",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://www.persita-fc.com/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/id/f/fe/Logo_Bhayangkara_Solo_FC.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Bhayangkara Solo FC",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Stadion Manahan",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://bhayangkarasolofc.id/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://admincms.maduraunitedfc.com/assets/gambar/madura%20united.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Madura United",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Gelora Madura Ratu Pamelingan",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://www.maduraunitedfc.com/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Persela_logo.svg/1200px-Persela_logo.svg.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PERSELA Lamongan",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Surajaya Lamongan",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://www.perselafootball.com/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Persik_Kediri_logo.svg/1200px-Persik_Kediri_logo.svg.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PERSIK Kediri",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Brawijaya Kediri",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://www.persikfc.co.id/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Persikabo_1973_new_logo.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Persikabo 1973",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Pakansari Cibinong",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "http://www.persikabo.com/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo_PSIS_Semarang_hd.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PSIS Semarang",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Moh. Subroto",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://psis.co.id/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/PSS_Sleman_logo.svg/1200px-PSS_Sleman_logo.svg.png",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "PSS Sleman",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Stadion : Maguwoharjo Sleman",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "color": "#ffffff",
+                      "height": "sm",
+                      "action": {
+                        "type": "uri",
+                        "label": "Web Profile",
+                        "uri": "https://pssleman.id/"
+                      }
+                    }
+                  ],
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
+                }
+              ],
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
       }
     ]
   }
