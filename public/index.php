@@ -1,17 +1,20 @@
 <?php
-require _DIR_ .'/../vendor/autoload.php';
-
-
+require __DIR__ . '/../vendor/autoload.php';
+ 
+ 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
  
-
+ 
 use \LINE\LINEBot;
 use \LINE\LINEBot\HTTPClient\CurlHTTPClient;
 use \LINE\LINEBot\MessageBuilder\MultiMessageBuilder;
 use \LINE\LINEBot\MessageBuilder\TextMessageBuilder;
 use \LINE\LINEBot\MessageBuilder\StickerMessageBuilder;
+use \LINE\LINEBot\MessageBuilder\AudioMessageBuilder;
+use \LINE\LINEBot\MessageBuilder\ImageMessageBuilder;
+use \LINE\LINEBot\MessageBuilder\VideoMessageBuilder;
 use \LINE\LINEBot\SignatureValidator as SignatureValidator;
  
 $pass_signature = true;
@@ -28,7 +31,7 @@ $app = AppFactory::create();
 $app->setBasePath("/public");
  
 $app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Hello World");
+    $response->getBody()->write("Hello Panji!");
     return $response;
 });
  

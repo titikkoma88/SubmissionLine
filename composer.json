@@ -13,11 +13,5 @@
         "http-interop/http-factory-guzzle": "^1.0",
         "laminas/laminas-diactoros": "^2.5"
     },
-    "authors": [
-        {
-            "name": "titikkoma88",
-            "email": "jie.koma88@gmail.com"
-        }
-    ],
     "minimum-stability": "stable"
 }
