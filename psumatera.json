@@ -9,7 +9,7 @@
           "contents": [
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/id/b/b8/Logo_PSM_Makasar_Baru.png",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Persiraja_logo.svg/1200px-Persiraja_logo.svg.png",
               "size": "full",
               "aspectMode": "cover",
               "aspectRatio": "2:3",
@@ -25,7 +25,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "PSM Makassar",
+                      "text": "Persiraja Banda Aceh",
                       "size": "xl",
                       "color": "#ffffff",
                       "weight": "bold"
@@ -38,7 +38,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "Stadion : Gelora Andi Mattalatta",
+                      "text": "Stadion : Harapan Bangsa",
                       "color": "#ebebeb",
                       "size": "sm",
                       "flex": 0
@@ -58,7 +58,7 @@
                       "action": {
                         "type": "uri",
                         "label": "Web Profile",
-                        "uri": "https://www.psmmakassar.co.id/"
+                        "uri": "https://www.persiraja.com/"
                       }
                     }
                   ],
