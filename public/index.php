@@ -61,30 +61,9 @@ $data = json_decode($body, true);
     if(is_array($data['events'])){
         foreach ($data['events'] as $event)
         {
-            $res = $bot->getProfile($event['source']['userId']);
-            if ($res->isSucceeded())
-            {
-                $profile = $res->getJSONDecodedBody();
-
-                // create welcome message
-                $message  = "Salam kenal, " . $profile['displayName'] . "!\n";
-                $message .= "silahkan kirim pesan dengan mengetik nama pulau. Contoh : \"Jawa\"";
-                $textMessageBuilder = new TextMessageBuilder($message);
-
-                // create sticker message
-                $stickerMessageBuilder = new StickerMessageBuilder(2, 32);
-
-                // merge all message
-                $multiMessageBuilder = new MultiMessageBuilder();
-                $multiMessageBuilder->add($textMessageBuilder);
-                $multiMessageBuilder->add($stickerMessageBuilder);
-
-                // send reply message
-                $result = $bot->replyMessage($event['replyToken'], $multiMessageBuilder);
-            }
-
+            
             //reply message
-            elseif ($event['type'] == 'message')
+            if ($event['type'] == 'message')
             {
                 if($event['message']['type'] == 'text')
                 {
@@ -222,6 +201,27 @@ $data = json_decode($body, true);
                         ->withStatus($result->getHTTPStatus());
                 } 
 
+            }
+            $res = $bot->getProfile($event['source']['userId']);
+            if ($res->isSucceeded())
+            {
+                $profile = $res->getJSONDecodedBody();
+
+                // create welcome message
+                $message  = "Salam kenal, " . $profile['displayName'] . "!\n";
+                $message .= "silahkan kirim pesan dengan mengetik nama pulau. Contoh : \"Jawa\"";
+                $textMessageBuilder = new TextMessageBuilder($message);
+
+                // create sticker message
+                $stickerMessageBuilder = new StickerMessageBuilder(2, 34);
+
+                // merge all message
+                $multiMessageBuilder = new MultiMessageBuilder();
+                $multiMessageBuilder->add($textMessageBuilder);
+                $multiMessageBuilder->add($stickerMessageBuilder);
+
+                // send reply message
+                $result = $bot->replyMessage($event['replyToken'], $multiMessageBuilder);
             }
         }
         return $response->withStatus(200, 'for Webhook!'); //buat ngasih response 200 ke pas verify webhook
