@@ -209,7 +209,7 @@ $data = json_decode($body, true);
 
                 // create welcome message
                 $message  = "Salam kenal, " . $profile['displayName'] . "!\n";
-                $message .= "silahkan kirim pesan dengan mengetik nama pulau. Contoh : \"Jawa\"";
+                $message .= "Profil klub dibagi berdasarkan pulaunya, silahkan kirim pesan dengan mengetik nama pulau. Contoh : \"Jawa\"";
                 $textMessageBuilder = new TextMessageBuilder($message);
 
                 // create sticker message
