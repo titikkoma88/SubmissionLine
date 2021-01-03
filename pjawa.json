@@ -9,7 +9,7 @@
           "contents": [
             {
               "type": "image",
-              "url": "https://www.aremafc.com/asset/images/arema-logo-140.png",
+              "url": "https://upload.wikimedia.org/wikipedia/id/thumb/4/40/Logo_Arema_FC_2017_logo.svg/200px-Logo_Arema_FC_2017_logo.svg.png",
               "size": "full",
               "aspectMode": "cover",
               "aspectRatio": "2:3",
@@ -52,7 +52,8 @@
                   "contents": [
                     {
                       "type": "button",
-                      "style": "primary",
+                      "style": "link",
+                      "height": "sm",
                       "action": {
                         "type": "uri",
                         "label": "Web Profile",
@@ -131,7 +132,8 @@
                   "contents": [
                     {
                       "type": "button",
-                      "style": "primary",
+                      "style": "link",
+                      "height": "sm",
                       "action": {
                         "type": "uri",
                         "label": "Web Profile",
