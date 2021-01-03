@@ -72,7 +72,7 @@ $data = json_decode($body, true);
                 $textMessageBuilder = new TextMessageBuilder($message);
 
                 // create sticker message
-                $stickerMessageBuilder = new StickerMessageBuilder(1, 3);
+                $stickerMessageBuilder = new StickerMessageBuilder(2, 32);
 
                 // merge all message
                 $multiMessageBuilder = new MultiMessageBuilder();
@@ -84,7 +84,7 @@ $data = json_decode($body, true);
             }
 
             //reply message
-            if ($event['type'] == 'message')
+            elseif ($event['type'] == 'message')
             {
                 if($event['message']['type'] == 'text')
                 {
