@@ -168,7 +168,7 @@ $data = json_decode($body, true);
                         $multiMessageBuilder->add($stickerMessageBuilder);
                         $multiMessageBuilder->add($textMessageBuilder);
 
-                        $result = $bot->replyText($event['replyToken'], $multiMessageBuilder);
+                        $result = $bot->replyMessage($event['replyToken'], $multiMessageBuilder);
                     }
     
     
